@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ads1292r"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/baris/CLionProjects/ads1292r/cmake-build-default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/baris/CLionProjects/ads1292r/cmake-build-default/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/baris/CLionProjects/ads1292r/cmake-build-default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/baris/CLionProjects/ads1292r/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/baris/CLionProjects/ads1292r/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ads1292r.elf">
+				<Option output="C:/Users/baris/CLionProjects/ads1292r/cmake-build-default/ads1292r.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/baris/CLionProjects/ads1292r/cmake-build-default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="C:/Users/baris/CLionProjects/ads1292r/Inc"/>
+					<Add directory="C:/Users/baris/CLionProjects/ads1292r/Inc/Device"/>
+					<Add directory="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Include"/>
+					<Add directory="c:\program files\stmicroelectronics\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="c:\program files\stmicroelectronics\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="c:\program files\stmicroelectronics\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="c:\program files\stmicroelectronics\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="c:\program files\stmicroelectronics\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="c:\program files\stmicroelectronics\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/baris/CLionProjects/ads1292r/cmake-build-default/Makefile&quot;  VERBOSE=1 ads1292r.elf"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/baris/CLionProjects/ads1292r/cmake-build-default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/baris/CLionProjects/ads1292r/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/baris/CLionProjects/ads1292r/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ads1292r.elf/fast">
+				<Option output="C:/Users/baris/CLionProjects/ads1292r/cmake-build-default/ads1292r.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/baris/CLionProjects/ads1292r/cmake-build-default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="C:/Users/baris/CLionProjects/ads1292r/Inc"/>
+					<Add directory="C:/Users/baris/CLionProjects/ads1292r/Inc/Device"/>
+					<Add directory="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Include"/>
+					<Add directory="c:\program files\stmicroelectronics\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="c:\program files\stmicroelectronics\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="c:\program files\stmicroelectronics\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="c:\program files\stmicroelectronics\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="c:\program files\stmicroelectronics\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="c:\program files\stmicroelectronics\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/baris/CLionProjects/ads1292r/cmake-build-default/Makefile&quot;  VERBOSE=1 ads1292r.elf/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/baris/CLionProjects/ads1292r/cmake-build-default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/baris/CLionProjects/ads1292r/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/baris/CLionProjects/ads1292r/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/baris/CLionProjects/ads1292r/cmake-build-default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/baris/CLionProjects/ads1292r/cmake-build-default/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/baris/CLionProjects/ads1292r/cmake-build-default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/baris/CLionProjects/ads1292r/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/baris/CLionProjects/ads1292r/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/baris/CLionProjects/ads1292r/cmake-build-default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/baris/CLionProjects/ads1292r/cmake-build-default/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/baris/CLionProjects/ads1292r/cmake-build-default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/baris/CLionProjects/ads1292r/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/baris/CLionProjects/ads1292r/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/STM32F103C8Tx_FLASH.ld">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Src/Device/LMT70.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Src/Device/Lcd_Driver.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Src/Device/ads1292.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Src/Device/inv_mpu.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Src/Device/inv_mpu_dmp_motion_driver.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Src/Device/mpu6050.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Src/GUI.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Src/adc.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Src/delay.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Src/gpio.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Src/i2c.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Src/main.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Src/mainApp.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Src/spi.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Src/stm32f1xx_hal_msp.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Src/stm32f1xx_it.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Src/syscalls.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Src/system_stm32f1xx.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Src/tim.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Src/usart.c">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/Src/util/ESP8266_AT.h">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/startup/startup_stm32f103xb.s">
+			<Option target="ads1292r.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/baris/CLionProjects/ads1292r/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

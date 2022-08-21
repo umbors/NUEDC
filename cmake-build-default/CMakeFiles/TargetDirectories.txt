@@ -1,0 +1,3 @@
+C:/Users/baris/CLionProjects/ads1292r/cmake-build-default/CMakeFiles/ads1292r.elf.dir
+C:/Users/baris/CLionProjects/ads1292r/cmake-build-default/CMakeFiles/edit_cache.dir
+C:/Users/baris/CLionProjects/ads1292r/cmake-build-default/CMakeFiles/rebuild_cache.dir
