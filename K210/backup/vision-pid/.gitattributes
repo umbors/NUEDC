@@ -1,0 +1,3 @@
+# Preserve archived source and model files byte-for-byte.
+* -text
+*.kmodel binary
