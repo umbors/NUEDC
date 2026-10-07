@@ -1,3 +1,11 @@
+# NUEDC — Small Design
+
+本分支保存 EE Design 小型电子设计合集：Altium 300yuan、HoloCubic 硬件与机械资料，以及 STM32L431RCT6 的 9 套示例。
+
+入口与工具说明见 [EE Design/README.md](EE%20Design/README.md)。2026-10-07 归档，原文件校验与范围见目录内清单；下方保留原 NUEDC main 分支说明。
+
+---
+
 # 电子设计2021 KZ-04组代码库
 电赛训练以及竞赛代码存档
 ## 更新日志

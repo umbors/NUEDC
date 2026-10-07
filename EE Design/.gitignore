@@ -1,0 +1,22 @@
+# Regenerable compiler intermediates and personal IDE state.
+*.o
+*.d
+*.crf
+*.lnp
+*.lst
+*.map
+*.map.old
+*.map.view
+*.objlist
+*.dep
+*.args.txt
+*.build_log.htm
+compiler.log
+unify_builder.log
+builder.params*
+*.uvguix.*
+.eide.usr.ctx.json
+desktop.ini
+# Keil project options are part of this archive.
+!*.uvoptx
+# Original firmware outputs already tracked by this archive remain preserved.

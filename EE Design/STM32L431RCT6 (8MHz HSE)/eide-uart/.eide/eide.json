@@ -1,0 +1,312 @@
+{
+  "name": "STM32L431RCT6",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "::CMSIS",
+        "files": [],
+        "folders": []
+      },
+      {
+        "name": "Application",
+        "files": [],
+        "folders": [
+          {
+            "name": "MDK-ARM",
+            "files": [
+              {
+                "path": "../example/USART/MDK-ARM/startup_stm32l431xx.s"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "User",
+            "files": [
+              {
+                "path": "../example/USART/Src/gpio.c"
+              },
+              {
+                "path": "../example/USART/Src/main.c"
+              },
+              {
+                "path": "../example/USART/Src/stm32l4xx_hal_msp.c"
+              },
+              {
+                "path": "../example/USART/Src/stm32l4xx_it.c"
+              },
+              {
+                "path": "../example/USART/Src/usart.c"
+              }
+            ],
+            "folders": []
+          }
+        ]
+      },
+      {
+        "name": "BSP",
+        "files": [
+          {
+            "path": "../example/USART/Components/BSP/BSP_GPIO.c"
+          },
+          {
+            "path": "../example/USART/Components/BSP/BSP_USART.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Drivers",
+        "files": [],
+        "folders": [
+          {
+            "name": "CMSIS",
+            "files": [
+              {
+                "path": "../example/USART/Src/system_stm32l4xx.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "STM32L4xx_HAL_Driver",
+            "files": [
+              {
+                "path": "../example/USART/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c"
+              },
+              {
+                "path": "../example/USART/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c"
+              },
+              {
+                "path": "../example/USART/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c"
+              },
+              {
+                "path": "../example/USART/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c"
+              },
+              {
+                "path": "../example/USART/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c"
+              },
+              {
+                "path": "../example/USART/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c"
+              },
+              {
+                "path": "../example/USART/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c"
+              },
+              {
+                "path": "../example/USART/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c"
+              },
+              {
+                "path": "../example/USART/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c"
+              },
+              {
+                "path": "../example/USART/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c"
+              },
+              {
+                "path": "../example/USART/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c"
+              },
+              {
+                "path": "../example/USART/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c"
+              },
+              {
+                "path": "../example/USART/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c"
+              },
+              {
+                "path": "../example/USART/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c"
+              },
+              {
+                "path": "../example/USART/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c"
+              },
+              {
+                "path": "../example/USART/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c"
+              },
+              {
+                "path": "../example/USART/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c"
+              },
+              {
+                "path": "../example/USART/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c"
+              },
+              {
+                "path": "../example/USART/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c"
+              }
+            ],
+            "folders": []
+          }
+        ]
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "b1a6da16f0dcbb746c6c91975c77f565"
+  },
+  "targets": {
+    "STM32L431RCT6": {
+      "excludeList": [],
+      "toolchain": "AC5",
+      "compileConfig": {
+        "cpuType": "Cortex-M4",
+        "floatingPointHardware": "single",
+        "scatterFilePath": "",
+        "useCustomScatterFile": false,
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x10000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x8000000",
+                "size": "0x40000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "pyOCD",
+      "uploadConfig": {
+        "bin": "",
+        "targetName": "stm32l432kc",
+        "baseAddr": "0x08000000",
+        "speed": "4M",
+        "config": ".eide/stm32l431rct6.pyocd.yaml"
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../example/USART/Inc",
+          "../example/USART/Drivers/STM32L4xx_HAL_Driver/Inc",
+          "../example/USART/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+          "../example/USART/Drivers/CMSIS/Device/ST/STM32L4xx/Include",
+          "../example/USART/Drivers/CMSIS/Include",
+          "../example/USART/Components/BSP",
+          ".cmsis/include",
+          "../example/USART/MDK-ARM/RTE/_STM32L431RCT6",
+          ".eide/deps"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "USE_HAL_DRIVER",
+          "STM32L431xx"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}
